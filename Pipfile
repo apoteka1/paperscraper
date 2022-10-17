@@ -5,7 +5,9 @@ name = "pypi"
 
 [packages]
 bs4 = "*"
+grequests = "*"
 requests = "*"
+flask = "*"
 
 [dev-packages]
 autopep8 = "*"

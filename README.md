@@ -1,2 +1,2 @@
-# cloudscraper
-terraform, beautiful soup, aws
+# paperscraper
+beautiful soup, grequests, flask
