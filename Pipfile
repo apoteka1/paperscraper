@@ -8,6 +8,7 @@ bs4 = "*"
 grequests = "*"
 requests = "*"
 flask = "*"
+flask-cors = "*"
 
 [dev-packages]
 autopep8 = "*"
