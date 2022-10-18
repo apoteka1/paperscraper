@@ -1,8 +1,6 @@
 from bs4 import BeautifulSoup
 import grequests as greq
 import re
-import time
-
 
 def get_counts(search_term):
     search_term_re = r'\b(%s)\b' % search_term
