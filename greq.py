@@ -6,7 +6,7 @@ import re
 
 def get_counts(search_term):
     search_term_re = r'\b(%s)\b' % search_term
-    sites = [("The Guardian", "https://www.theguardian.com/uk"), ("Daily Mail", "https://www.dailymail.co.uk/home/index.html"),
+    sites = [("The Guardian", "https://www.theguardian.com/uk"), ("The Daily Mail", "https://www.dailymail.co.uk/home/index.html"),
              ("BBC", "https://www.bbc.co.uk/news"), ("The Sun", "https://www.thesun.co.uk/")]
 
     counts = {}
